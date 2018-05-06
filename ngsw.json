@@ -1,0 +1,59 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/animate.css",
+        "/assets/floating-labels.css",
+        "/assets/hack5.png",
+        "/assets/hack5.svg",
+        "/assets/questions_data.js",
+        "/assets/sample_data.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/animate.css": "46fed2c46e1673370e619cb3a54ce8da46d0145e",
+    "/index.html": "ba92ca8d4c2bbd87a3dd0734b47008b98d863249",
+    "/assets/floating-labels.css": "8f582b348434f00a5cd9ed9014c332af583fbafb",
+    "/assets/hack5.png": "a67ca528c8e6008537bbd60edc45804e10192695",
+    "/assets/hack5.svg": "05b5771658350e06143a4503fc30bae929261e5e",
+    "/assets/questions_data.js": "ef913edfee7d8fd45617468bbe51afc0b7e9daa3",
+    "/assets/sample_data.js": "5644b5eab37d68e28dbfb636820b2c75542a3289"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
